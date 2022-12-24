@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+#pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 pip install nuitka patchelf ordered-set zstandard
 pip install --no-input -r requirements.txt
